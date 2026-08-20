@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name — BBA IT Student &amp; Learning Log</title>
+  <meta name="description" content="Portfolio and learning log of a BBA in Information Technology student, documenting projects and progress semester by semester.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <p class="wordmark"><a href="#top">YN<span class="wordmark-dot">.</span></a></p>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <nav id="primary-nav" class="primary-nav">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#log">Learning log</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section id="top" class="hero">
+      <p class="eyebrow">BBA in Information Technology — Semester 1</p>
+      <h1 class="hero-title">Building my skills,<br><em>one line of code</em> at a time.</h1>
+      <p class="hero-lede">
+        I'm Your Name, an IT student in Finland just getting started. This site is where I keep an
+        honest record of what I'm learning, the projects I build along the way, and the skills
+        I'm picking up between lectures and late-night debugging sessions.
+      </p>
+      <p class="hero-actions">
+        <a class="btn" href="#log">Read the log</a>
+        <a class="btn btn-ghost" href="#projects">See my projects</a>
+      </p>
+
+      <figure class="stamp" aria-hidden="true">
+        <svg viewBox="0 0 180 180" width="150" height="150">
+          <circle cx="90" cy="86" r="58" fill="none" stroke="var(--caramel)" stroke-width="3" opacity="0.55"/>
+          <circle cx="94" cy="90" r="46" fill="none" stroke="var(--coffee)" stroke-width="2" opacity="0.4"/>
+          <text x="90" y="82" text-anchor="middle" class="stamp-text-top">STUDENT</text>
+          <text x="90" y="100" text-anchor="middle" class="stamp-text-bottom">SINCE 2026</text>
+        </svg>
+      </figure>
+    </section>
+
+    <!-- ============ LEARNING LOG ============ -->
+    <section id="log" class="log">
+      <header class="section-head">
+        <p class="section-kicker">01 — Journal</p>
+        <h2>Learning log</h2>
+        <p class="section-intro">A running, dated record of what I've studied, built, or broken and fixed. Newest first.</p>
+      </header>
+
+      <ol class="log-entries" reversed>
+        <li class="log-entry">
+          <article>
+            <time datetime="2026-08">August 2026</time>
+            <h3>Started my portfolio site</h3>
+            <p>Set up this site from scratch: semantic HTML, a small CSS design system, and a bit of
+              vanilla JavaScript for the navigation. First real lesson: plan your CSS variables before
+              you start writing components.</p>
+          </article>
+        </li>
+        <li class="log-entry">
+          <article>
+            <time datetime="2026-08">August 2026</time>
+            <h3>Shipped my first team project</h3>
+            <p>Built the contacts page for <a href="https://nailforecast.fi/contacts-index.html">NailForecast</a>,
+              a small group site, while a teammate handled the rest of the pages. Learned how to keep
+              markup consistent across files written by different people.</p>
+          </article>
+        </li>
+        <li class="log-entry">
+          <article>
+            <time datetime="2026-08">August 2026</time>
+            <h3>Orientation week</h3>
+            <p>Started my BBA in Information Technology. Spent the week getting oriented with the
+              programme, the tools we'll be using, and meeting the people I'll be building things with.</p>
+          </article>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="projects">
+      <header class="section-head">
+        <p class="section-kicker">02 — Practice</p>
+        <h2>Projects</h2>
+        <p class="section-intro">Small and growing. Each one taught me something I didn't know the week before.</p>
+      </header>
+
+      <ul class="project-grid">
+        <li>
+          <article class="project-card">
+            <p class="project-index">01</p>
+            <h3>NailForecast — Contacts Page</h3>
+            <p>A team website pairing zodiac signs with manicure trends. I built the contacts page;
+              a teammate built the rest of the site.</p>
+            <p class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Team project</span>
+            </p>
+            <a class="project-link" href="https://nailforecast.fi/contacts-index.html">View the page →</a>
+          </article>
+        </li>
+
+        <li>
+          <article class="project-card project-card--next">
+            <p class="project-index">02</p>
+            <h3>Next project</h3>
+            <p>Reserved for whatever I build next — a good excuse to keep this section from going stale.</p>
+            <p class="tags">
+              <span>Coming soon</span>
+            </p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="skills">
+      <header class="section-head">
+        <p class="section-kicker">03 — Toolbox</p>
+        <h2>Skills so far</h2>
+        <p class="section-intro">Early days, so this list is short — but it only grows from here.</p>
+      </header>
+
+      <dl class="skill-list">
+        <dt>Languages &amp; markup</dt>
+        <dd>HTML</dd>
+        <dd>CSS</dd>
+        <dd>JavaScript</dd>
+
+        <dt>Tools</dt>
+        <dd>Git</dd>
+        <dd>VS Code</dd>
+
+        <dt>Business &amp; IT</dt>
+        <dd>Project basics</dd>
+        <dd>Team collaboration</dd>
+      </dl>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="contact">
+      <header class="section-head">
+        <p class="section-kicker">04 — Say hello</p>
+        <h2>Let's connect</h2>
+        <p class="section-intro">Open to feedback, study group invites, or just talking shop about what I'm learning.</p>
+      </header>
+
+      <ul class="contact-list">
+        <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <li><a href="https://github.com/yourusername">github.com/yourusername</a></li>
+        <li><a href="https://linkedin.com/in/yourusername">linkedin.com/in/yourusername</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-stamp" viewBox="0 0 100 100" width="48" height="48" aria-hidden="true">
+      <circle cx="50" cy="48" r="30" fill="none" stroke="var(--sand)" stroke-width="2"/>
+    </svg>
+    <p>&copy; <span id="year"></span> Your Name. Built by hand, line by line.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
